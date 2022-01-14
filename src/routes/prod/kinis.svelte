@@ -14,7 +14,7 @@
 	</header>
 
 	<div id="hero">
-		<img src="/kinispreview.png" alt="app preview" />
+		<img src="{base}/kinispreview.png" alt="app preview" />
 	</div>
 
 	<div id="info">
