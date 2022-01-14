@@ -1,5 +1,5 @@
 <script>
-  import { base } from '$app/paths';{base}
+  import { base } from '$app/paths';
 	import Icon from '$lib/Icon.svelte';
 
 	export const prerender = true;

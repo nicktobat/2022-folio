@@ -67,7 +67,7 @@
         left: 0;
         width: 284px;
         height: 574px;
-        background-image: url('ixd/iphonex_2.png');
+        background-image: url('/ixd/iphonex_2.png');
         background-size: 100% 100%;
         z-index: 9;
       }
