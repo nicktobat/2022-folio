@@ -18,7 +18,6 @@ var __privateSet = (obj, member, value, setter) => {
 };
 var _map;
 import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-abd7ce05.js";
-import { s as set_paths, b as base, a as assets } from "./chunks/paths-6758d194.js";
 import cookie from "cookie";
 import { v4 } from "@lukeed/uuid";
 function get_single_valued_header(headers, key) {
@@ -1448,6 +1447,12 @@ ${components[1] ? `${validate_component(components[0] || missing_component, "sve
 
 ${``}`;
 });
+let base = "";
+let assets = "";
+function set_paths(paths) {
+  base = paths.base;
+  assets = paths.assets || base;
+}
 function set_prerendering(value) {
 }
 const handle = async ({ request, resolve: resolve2 }) => {
@@ -1472,7 +1477,7 @@ var user_hooks = /* @__PURE__ */ Object.freeze({
 });
 const template = ({ head, body, assets: assets2 }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n\n		' + head + '\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>\n";
 let read = null;
-set_paths({ "base": "/2022-folio", "assets": "" });
+set_paths({ "base": "/build", "assets": "" });
 const get_hooks = (hooks) => ({
   getSession: hooks.getSession || (() => ({})),
   handle: hooks.handle || (({ request, resolve: resolve2 }) => resolve2(request)),

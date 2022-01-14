@@ -9,7 +9,7 @@ const template = ({ head, body, assets }) => "<!DOCTYPE html>\n<html lang=\"en\"
 
 let read = null;
 
-set_paths({"base":"/2022-folio","assets":""});
+set_paths({"base":"/build","assets":""});
 
 // this looks redundant, but the indirection allows us to access
 // named imports without triggering Rollup's missing import detection

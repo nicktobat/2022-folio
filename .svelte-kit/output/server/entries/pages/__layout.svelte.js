@@ -1,7 +1,6 @@
 import { g as getContext, c as create_ssr_component, a as subscribe, b as add_attribute, v as validate_component, e as escape, d as createEventDispatcher, n as null_to_empty, f as noop, h as safe_not_equal, i as each, t as tick } from "../../chunks/index-abd7ce05.js";
 import { I as Icon } from "../../chunks/Icon-3e43faec.js";
-import { b as base } from "../../chunks/paths-6758d194.js";
-var logo = "/2022-folio/_app/assets/logo-c93b601c.svg";
+var logo = "/build/_app/assets/logo-c93b601c.svg";
 const getStores = () => {
   const stores = getContext("__svelte__");
   return {
@@ -60,7 +59,7 @@ const SideNav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <span class="${"ttText svelte-fkv5bo"}">Home</span></a></div>
   <div id="${"links"}">${validate_component(NavLink, "NavLink").$$render($$result, {
     name: "Product Design",
-    href: base + "/prod",
+    href: "/prod",
     title: "design"
   }, {}, {})}
     ${validate_component(NavLink, "NavLink").$$render($$result, {

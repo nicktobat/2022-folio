@@ -4,8 +4,7 @@
     "src": ".svelte-kit/build/app.js",
     "isEntry": true,
     "imports": [
-      "_index-abd7ce05.js",
-      "_paths-6758d194.js"
+      "_index-abd7ce05.js"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -14,11 +13,10 @@
     "isEntry": true,
     "imports": [
       "_index-abd7ce05.js",
-      "_Icon-3e43faec.js",
-      "_paths-6758d194.js"
+      "_Icon-3e43faec.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-efcb8978.css"
+      "assets/entries/pages/__layout.svelte-af9ebc60.css"
     ],
     "assets": [
       "assets/logo-c93b601c.svg",
@@ -157,9 +155,6 @@
     "css": [
       "assets/entries/pages/prod/kinis.svelte-edd7a4e4.css"
     ]
-  },
-  "_paths-6758d194.js": {
-    "file": "chunks/paths-6758d194.js"
   },
   "_index-abd7ce05.js": {
     "file": "chunks/index-abd7ce05.js"
