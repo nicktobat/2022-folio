@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';{base}
 	import Icon from '$lib/Icon.svelte';
 
 	export const prerender = true;
@@ -67,7 +68,7 @@
 		<h2>Core Features</h2>
 		<div class="imgset imgset-4">
 			{#each { length: 4 } as _, i}
-				<img src="/kinis/Tabs{i}.png" alt="core feature screenshot" />
+				<img src="{base}/kinis/Tabs{i}.png" alt="core feature screenshot" />
 			{/each}
 		</div>
 		<!-- <img src="/kinis_core.png" alt="screenshots of the four main app tabs" /> -->
@@ -81,7 +82,7 @@
 		<h2>Onboarding</h2>
 		<div class="imgset imgset-4">
 			{#each { length: 4 } as _, i}
-				<img src="/kinis/Onboard{i}.png" alt="onboarding screenshot" />
+				<img src="{base}/kinis/Onboard{i}.png" alt="onboarding screenshot" />
 			{/each}
 		</div>
 		<p>
@@ -100,7 +101,7 @@
 		<h2>Search & Filter</h2>
 		<div class="imgset imgset-4">
 			{#each { length: 4 } as _, i}
-				<img src="/kinis/Search{i}.png" alt="discover tab screenshot" />
+				<img src="{base}/kinis/Search{i}.png" alt="discover tab screenshot" />
 			{/each}
 		</div>
 		<p>
@@ -125,8 +126,8 @@
 			market opportunity.
 		</p>
 		<div class="imgset imgset-2">
-			<img src="/kinis/whiteboard.png" alt="whiteboard session" />
-			<img src="/kinis/analysis.png" alt="research brief" />
+			<img src="{base}/kinis/whiteboard.png" alt="whiteboard session" />
+			<img src="{base}/kinis/analysis.png" alt="research brief" />
 		</div>
 		<p>
 			Our user experience has always, appropriately, been guided by our users. It is extremely
@@ -136,10 +137,10 @@
 			even begin to build a milestone map for the actual build.
 		</p>
 		<div class="imgset imgset-4">
-			<img src="/kinis/trainerpath.png" alt="coach flow" />
-			<img src="/kinis/custpath.png" alt="cient flow" />
-			<img src="/kinis/process.png" alt="processes" />
-			<img src="/kinis/milestones.png" alt="milestones" />
+			<img src="{base}/kinis/trainerpath.png" alt="coach flow" />
+			<img src="{base}/kinis/custpath.png" alt="cient flow" />
+			<img src="{base}/kinis/process.png" alt="processes" />
+			<img src="{base}/kinis/milestones.png" alt="milestones" />
 		</div>
 	</section>
 
@@ -170,7 +171,7 @@
 			The Kinis app will be available for download on both iOS and Android later this year. I can't
 			wait for you to try it out. Thanks for reading!
 		</p>
-		<img src="/kinis/foot.png" alt="phone app held by a foot" style="border-radius: 24px" />
+		<img src="{base}/kinis/foot.png" alt="phone app held by a foot" style="border-radius: 24px" />
 	</section>
 </main>
 

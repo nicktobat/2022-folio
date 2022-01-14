@@ -1,4 +1,5 @@
 <script context="module">
+  import { base } from '$app/paths';
   import { browser, dev } from '$app/env';
   import Work from '$lib/Work.svelte';
 
@@ -28,7 +29,7 @@
   
   <section>
     <Work
-      href="/prod/kinis"
+      href="{base}/prod/kinis"
       name="Kinis App"
       desc="Leading design and product management for a brand-new fitness and wellness application."
       src="/kinispreview.png"

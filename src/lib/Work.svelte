@@ -15,7 +15,7 @@
 <a {href}>
   <article style="--theme-color: {color}; --bg-color: {bgColor}">
     <div class="imgWrap">
-      <img src="{base}/{src}" alt="preview img" />
+      <img src="{base}{src}" alt="preview img" />
     </div>
     <section>
       <h2>{name}</h2>
