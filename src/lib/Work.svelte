@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import Icon from '$lib/Icon.svelte';
 
   export let href;
@@ -14,7 +15,7 @@
 <a {href}>
   <article style="--theme-color: {color}; --bg-color: {bgColor}">
     <div class="imgWrap">
-      <img {src} alt="preview img" />
+      <img src="{base}/{src}" alt="preview img" />
     </div>
     <section>
       <h2>{name}</h2>

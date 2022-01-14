@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   export const prerender = true;
 </script>
 
@@ -6,20 +7,20 @@
 <h4>The following motion animations were created in InVision Studio. Hover or tap to check 'em out.</h4>
 <article>
   <div class="imgWrap">
-    <img class="image" src="/ixd/nike.png" alt="nike" />
-    <img class="gif" src="/ixd/nike.gif" alt="nike" />
+    <img class="image" src="{base}/ixd/nike.png" alt="nike" />
+    <img class="gif" src="{base}/ixd/nike.gif" alt="nike" />
     <div class="phone"></div>
   </div>
 
   <div class="imgWrap">
-    <img class="image" src="/ixd/reserve.png" alt="reserve" />
-    <img class="gif" src="/ixd/reserve.gif" alt="reserve" />
+    <img class="image" src="{base}/ixd/reserve.png" alt="reserve" />
+    <img class="gif" src="{base}/ixd/reserve.gif" alt="reserve" />
     <div class="phone"></div>
   </div>
 
   <div class="imgWrap">
-    <img class="image" src="/ixd/menu.png" alt="menu" />
-    <img class="gif" src="/ixd/menu.gif" alt="menu" />
+    <img class="image" src="{base}/ixd/menu.png" alt="menu" />
+    <img class="gif" src="{base}/ixd/menu.gif" alt="menu" />
     <div class="phone"></div>
   </div>
 </article>
