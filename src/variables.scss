@@ -1,0 +1,44 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+
+$black: #111;
+$white: #fafafa;
+$red: #ff5429;
+$blue: #2969ff;
+$yellow: #ffbf29;
+
+/* Work Themes */
+
+$kinis: #1a1a1a;
+$signatry: #006064;
+$backbone: #007AFF;
+
+@keyframes btn-animate{
+  0%{ box-shadow: 6px 6px #FF5429; }
+  12.25%{ box-shadow: -6px 6px #FF5429, 10px -4px #2969FF; }
+  25%{ box-shadow: -6px -6px #FF5429; }
+  37.5%{ box-shadow: 6px 6px #FF5429, -10px -4px #FF5429; }
+  50%{ box-shadow: 6px -6px #FFBF29; }
+  62.5%{ box-shadow: -6px -6px #FF5429, 10px 4px #2969FF; }
+  75%{ box-shadow: -6px 6px #FF5429; }
+  87.5%{ box-shadow: 6px -6px #FF5429, -10px 4px #FF5429; }
+  100%{ box-shadow: 6px 6px #FFBF29; }
+}
+
+@keyframes block-animate {
+  0% {
+    box-shadow: -16px -16px $black, -16px 16px $black, 16px 16px $black, 16px -16px $black;
+    transform: perspective(6000px) scale(1.05);
+  }
+  33% {
+    box-shadow: -32px -16px $black, -32px 16px $black, 16px 16px $black, 16px -16px $black;
+    transform: perspective(6000px) rotateY(20deg) rotateX(5deg) translate(16px) scale(1.05);
+  }
+  66% {
+    box-shadow: -16px -16px $black, -16px 16px $black, 32px 16px $black, 32px -16px $black;
+    transform: perspective(6000px) rotateY(-20deg) rotateX(-5deg) translate(-16px) scale(1.05);
+  }
+  100% {
+    box-shadow: -16px -16px $black, -16px 16px $black, 16px 16px $black, 16px -16px $black;
+    transform: perspective(6000px) scale(1.05);
+  }
+}
