@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+  import { base } from '$app/paths';
 </script>
 
 
@@ -10,8 +11,8 @@
 	</div>
 
   <nav>
-    <a class="button active:{$page.url.pathname === '/studio'}" sveltekit:prefetch href="/studio">Studio</a>
-    <a class="button active:{$page.url.pathname === '/contact'}" sveltekit:prefetch href="/contact">Say Hi</a>
+    <a class="button active:{$page.url.pathname === '/studio'}" sveltekit:prefetch href="{base}/studio">Studio</a>
+    <a class="button active:{$page.url.pathname === '/contact'}" sveltekit:prefetch href="{base}/contact">Say Hi</a>
 	</nav>
 </header>
 

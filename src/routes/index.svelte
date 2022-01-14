@@ -1,6 +1,6 @@
 <script context="module">
-	export const prerender = true;
   import Index from '$lib/Index.svelte';
+	export const prerender = true;
 </script>
 
 

@@ -1,25 +1,26 @@
 <script>
-  import logo from '$lib/footer/logo.svg';
+  import { base } from '$app/paths';
+  import Icon from '$lib/Icon.svelte';
   import NavLink from '$lib/NavLink.svelte';
 </script>
 
 
 <nav class="container">
   <div id="logo">
-    <a href="/">
-      <img src={logo} alt="Logo" />
+    <a href="{base}/">
+      <Icon title="logo" width="32px" height="32px" />
       <span class="ttText">Home</span>
     </a>
   </div>
   <div id="links">
     <NavLink
       name="Product Design"
-      href="/prod"
+      href="{base}/prod"
       title="design"
     />
     <NavLink
       name="Studio"
-      href="/studio"
+      href="{base}/studio"
       title="studio"
     />
     <!-- <NavLink
@@ -29,7 +30,7 @@
     /> -->
     <NavLink
       name="Blue Sky"
-      href="/bluesky"
+      href="{base}/bluesky"
       title="sky"
     />
   </div>

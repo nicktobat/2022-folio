@@ -1,5 +1,6 @@
 <script>
   import Icon from '$lib/Icon.svelte';
+  import { base } from '$app/paths';
 </script>
 
 
@@ -7,7 +8,7 @@
 	
   <header>
 		<div id="portrait">
-			<img src='/portrait.jpg' alt="portrait of Nick" />
+			<img src='{base}/portrait.jpg' alt="portrait of Nick" />
 		</div>
 		<div class="text">
 			<h1>Nicholas Tobat</h1>
@@ -27,11 +28,11 @@
 		</p>
 
     <div class="actions">
-      <a role="button" href="/Nicholas Tobat Resume.pdf" target="_blank">
+      <a role="button" href="{base}/Nicholas Tobat Resume.pdf" target="_blank">
         <p>View Resume</p>
         <Icon title="open-new" height="20px" width="20px" />
       </a>
-      <a role="button" href="/Nicholas Tobat Resume.pdf" download>
+      <a role="button" href="{base}/Nicholas Tobat Resume.pdf" download>
         <p>Download Resume</p>
         <Icon title="dl" />
       </a>

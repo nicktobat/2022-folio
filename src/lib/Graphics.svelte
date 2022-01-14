@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
 	export const prerender = true;
 	let src;
 	let target = document.querySelector('#lightbox');
@@ -17,27 +18,27 @@
 <h4>The following graphic designs were created in Affinity Designer. Tap to expand.</h4>
 <article>
 	<div class="imgWrap">
-		<img class="image" src="/graphix/scooby.png" alt="scooby" on:click={imgClick} />
+		<img class="image" src="{base}/graphix/scooby.png" alt="scooby" on:click={imgClick} />
 	</div>
 
 	<div class="imgWrap">
-		<img class="image" src="/graphix/gods.png" alt="gods" on:click={imgClick} />
+		<img class="image" src="{base}/graphix/gods.png" alt="gods" on:click={imgClick} />
 	</div>
 
 	<div class="imgWrap">
-		<img class="image" src="/graphix/howl.png" alt="howl" on:click={imgClick} />
+		<img class="image" src="{base}/graphix/howl.png" alt="howl" on:click={imgClick} />
 	</div>
 
 	<div class="imgWrap">
-		<img class="image" src="/graphix/cig.png" alt="cig" on:click={imgClick} />
+		<img class="image" src="{base}/graphix/cig.png" alt="cig" on:click={imgClick} />
 	</div>
 
 	<div class="imgWrap">
-		<img class="image" src="/graphix/basenji.png" alt="basenji" on:click={imgClick} />
+		<img class="image" src="{base}/graphix/basenji.png" alt="basenji" on:click={imgClick} />
 	</div>
 
 	<div class="imgWrap">
-		<img class="image" src="/graphix/oasis.png" alt="oasis" on:click={imgClick} />
+		<img class="image" src="{base}/graphix/oasis.png" alt="oasis" on:click={imgClick} />
 	</div>
 </article>
 

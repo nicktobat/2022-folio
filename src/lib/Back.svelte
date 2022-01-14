@@ -1,9 +1,10 @@
 <script>
   import Icon from "$lib/Icon.svelte";
+  import { base } from '$app/paths';
 </script>
 
 <div>
-  <a href="/">
+  <a href="{base}/">
     <Icon title="arrow-left" />
     <span>Back</span>
   </a>

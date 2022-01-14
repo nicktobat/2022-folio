@@ -1,8 +1,8 @@
 <script>
+  import { base } from '$app/paths';
 	import { page } from '$app/stores';
   import Snackbars from '$lib/snackbar/Snackbars.svelte'
   import { addToast } from '$lib/snackbar/store';
-  import logo from './logo.svg'
   import Clipboard from 'svelte-clipboard'
   import Icon from '$lib/Icon.svelte'
 
@@ -26,7 +26,7 @@
     </section>
     <section class="links">
       <div class="link">
-        <Clipboard
+        <!-- <Clipboard
           text="ntobat@gmail.com"
           let:copy
           on:copy={() => {
@@ -40,11 +40,11 @@
           <button title="Copy" on:click={copy}>
             <Icon title="copy" />
           </button>
-        </Clipboard>
+        </Clipboard> -->
         <a href="//mailto:ntobat@gmail.com" target="_blank" title="Visit Link">ntobat@gmail.com</a>
       </div>
       <div class="link">
-        <Clipboard
+        <!-- <Clipboard
           text="linkedin.com/in/nicktobat"
           let:copy
           on:copy={() => {
@@ -58,11 +58,11 @@
           <button title="Copy" on:click={copy}>
             <Icon title="copy" />
           </button>
-        </Clipboard>
+        </Clipboard> -->
         <a href="//linkedin.com/in/nicktobat" target="_blank" title="Visit Link">linkedin.com/in/nicktobat</a>
       </div>
       <div class="link">
-        <Clipboard
+        <!-- <Clipboard
           text="github.com/nicktobat"
           let:copy
           on:copy={() => {
@@ -76,12 +76,12 @@
           <button title="Copy" on:click={copy}>
             <Icon title="copy" />
           </button>
-        </Clipboard>
+        </Clipboard> -->
         <a href="//github.com/nicktobat" target="_blank" title="Visit Link">github.com/nicktobat</a>
       </div>
     </section>
     <section>
-      <a href="/">
+      <a href="{base}/">
         <Icon title="logo" width="32px" height="32px" />
       </a>
     </section>
@@ -157,7 +157,7 @@
               margin-bottom: 4px;
             }
 
-            button {
+            /* button {
               border: 0;
               height: 40px;
               width: 40px;
@@ -170,7 +170,7 @@
               &:hover {
                 background-color: rgba(0,0,0,0.12);
               }
-            }
+            } */
 
             a {
               text-decoration: underline;
@@ -202,14 +202,14 @@
 
           &.links {
             .link {
-              button {
+              /* button {
                 &:hover {
                   background-color: rgba(255,255,255,0.12);
                 }
                 :global(svg) {
                   fill: $white;
                 }
-              }
+              } */
               a {
                 &:hover {
                   background-color: rgba(255,255,255,0.12);;
