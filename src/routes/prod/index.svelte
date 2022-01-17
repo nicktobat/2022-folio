@@ -32,26 +32,28 @@
       href="{base}/prod/kinis"
       name="Kinis App"
       desc="Leading design and product management for a brand-new fitness and wellness application."
-      src="/kinispreview.png"
+      src="/kinispreview_.png"
       color="#1A1A1A"
       bgColor="26, 26, 26"
       tags={tags.kinis}
     />
     <Work
-      name="Reconciliation"
-      desc="An intuitive interface for matching and posting book and bank transactions."
-      src="/reconcilepreview.jpg"
-      color="#006064"
-      bgColor="0, 96, 100"
-      tags={tags.reconcile}
-    />
-    <Work
+      href="{base}/prod/utilization"
       name="Utilization Reports"
       desc="A robust reporting tool for the building blocks of your company: components."
       src="/utilizepreview.png"
       color="#007AFF"
       bgColor="0, 122, 255"
       tags={tags.utilize}
+    />
+    <Work
+      href="{base}/prod/reconciliation"
+      name="Reconciliation"
+      desc="An intuitive interface for matching and posting book and bank transactions."
+      src="/reconcilepreview.jpg"
+      color="#006064"
+      bgColor="0, 96, 100"
+      tags={tags.reconcile}
     />
   </section>
 </main>

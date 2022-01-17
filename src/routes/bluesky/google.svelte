@@ -1,0 +1,1802 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
+
+<main>
+
+  <div id="sideBlack"></div>
+  <div id="empty"></div>
+
+  <div class="icons">
+    <a class="home" href="/index.html">
+      <img id="logo" src="#" alt="google refuge asset" />
+    </a>
+    <a class="menu" href="{base}">
+      <img id="menu" class="menuClosed" src="/assets/menu.svg" alt="google refuge asset" />
+    </a>
+    <!--div class="jump-links">
+      <p class="jump-title">JUMP TO:</p>
+      <a class="jump-link" data-id="top" href="#">TOP</a>
+      <a class="jump-link" data-id="1" href="#section1">PRODUCT</a>
+      <a class="jump-link" data-id="2"  href="#section2">UI</a>
+      <a class="jump-link" data-id="3"  href="#section3">WEB</a>
+      <a class="jump-link" data-id="4"  href="#section4">PROCESS</a>
+    </div-->
+  </div>
+
+
+  <section class="row two">
+    <img id="hero" src="/assets/google/lightPhone.png" class="smImg" alt="google refuge asset" />
+    <div id="heroText" class="content">
+      <!--div id="titleBlock">
+        <h1>Google Refuge</h1>
+        <a href=""><img src="/assets/play.png" /></a>
+      </div><br-->
+      <h1>Google Refuge</h1><br>
+      <p class="pHero">A mobile device-based solution for the Syrian refugee crisis.</p><br>
+      <div class="disciplines">
+        <p class="ux">UX DESIGN: </p>
+        <a class="discipline" href="#section1">PRODUCT DESIGN</a>
+        <a class="discipline" href="#section2">UI DESIGN</a>
+        <a class="discipline" href="#section3">WEB DESIGN</a>
+      </div>
+      <div id="role">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="row three black-bg">
+    <h3 id="ovSub" class="subtitle-black el el-sub">STORY</h3>
+    <p id="ovText" class="content content-black el el-text">My team was asked to tackle a very broad issue: Refugees in America. Google Refuge is the result of five weeks of research, planning, and execution, from the initial stages of identifying the specific problem we wanted to address, to 3D modeling and video production. Throughout each stage of the process we had to ensure that we were putting the needs of refugees first. Click the button below to read the full story.</p>
+    <a class="button btn-jump" href="#section4" id="process">DESIGN PROCESS</a>
+    <h3 class="subtitle-black el el-sub" style="grid-row: 3">ROLE</h3>
+    <p class="content content-black el el-text" style="grid-row: 3"><!--The team for this project consisted of myself (experience designer), Joshua Perry (copywriter), and Joe Jones (art director). -->I was specifically responsible for: designing the phone's hardware specs; designing the phone’s operating system and eInk versions of Google apps; and designing and developing the campaign website. To see the fully realized products, keep scrolling, or click the button above to jump to the design process and see how it was all made.</p>
+  </section>
+
+  <section class="row four black-bottom">
+    <p id="ovCaption" class="pCaption el el-left">Google Refuge: Video Overview</p>
+    <div class="image lgImg el el-img iframer"><iframe title="Google Refuge Video" style="background-color: var(--primary-black)" src="https://player.vimeo.com/video/297623214" align="middle" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <!--img id="ovImg" class="image lgImg four" src="/assets/google/videoThumb.png" /-->
+  </section>
+
+  <section class="row five">
+    <h3 class="el el-sub">OVERVIEW</h3>
+    <p class="content el">Over 25 million people globally have been forced to flee their homes from persecution or violence. They are now refugees. Google Refuge provides connectivity for those who have lost everything else.
+  </section>
+
+  <section class="row six">
+    <h3 class="el el-sub">CONTEXT</h3>
+    <p class="content el">The resettlement process for a refugee is a long one, often beginning with a catastrophe or some terrible event forcing the refugee to flee. They may not have time to gather the whole family, or retrieve important documents such as property ownership documents, birth certificates and IDs, etc. And once they arrive in a camp, access to the Internet is often limited or entirely unavailable.</p>
+  </section>
+
+  <section class="row seven">
+    <h3 class="el el-sub">CONCEPT</h3>
+    <p class="content el">Google, as one of the only companies in the world with the infrastructure and resources necessary to provide Internet capabilities to refugee camps, will launch a new project: Google Refuge. WiFi-emitting beacons stocked with hundreds of specially-designed phones are air-dropped into locations with the greatest need.</p>
+    <a class="button button-white btn-jump" href="#google">WHY GOOGLE?</a>
+  </section>
+
+  <section class="row eight">
+    <p class="pCaption el">Close-up view of the Google Refuge Beacon</p>
+    <img class="image lgImg el el-img" src="/assets/google/beacon05.jpg" alt="google refuge asset" />
+  </section>
+  
+  <section class="row nine">
+    <div class="sectionNumber el">
+      <h2>01.</h2>
+    </div>
+    <div class="sectionTitle el" id="section1">
+      <h2>PRODUCT DESIGN</h2>
+    </div>
+  </section>
+
+  <section class="row ten">
+    <p class="pCaption el">The Google Light Phone</p>
+    <video class="image lgImg el el-img" autoplay="" muted="" playsinline="" loop>
+      <source src="/assets/google/light.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section class="row eleven">
+    <h3 class="el el-sub">PRODUCT DESIGN</h3>
+    <p class="content el">
+      <span class="bolded">BUILDING A CHEAP & INDESTRUCTIBLE PHONE</span><br>
+      <span class="sub-bolded">CONSIDERATIONS</span><br>
+      The phone had to withstand rugged outdoor conditions and cross-country travel, as well as operate hyper-efficiently for users who often go long periods without access to charging.
+      <br><br>
+    <span class="sub-bolded">OUTCOMES</span><br>
+      The phones are built to military standards, with Corning Gorilla Glass DX (the glare-resistant glass used on smart watches) and a protective non-slip rubber casing. The phones use eInk technology to render the UI, saving on both manufacturing costs and processing power by foregoing colors and animations. See the full technical specifications below.
+    </p>
+  </section>
+
+  <section class="row twelve">
+    <p class="pCaption el">The Google Light Phone technical specifications</p>
+    <img class="image lgImg el el-img" src="/assets/google/techSpecs.jpg" style="outline: 1px solid var(--primary-black);" alt="google refuge asset" />
+  </section>
+
+  <section class="row thirteen">
+    <div class="sectionNumber el">
+      <h2>02.</h2>
+    </div>
+    <div class="sectionTitle el" id="section2">
+      <h2>UI DESIGN</h2>
+    </div>
+  </section>
+
+  <section class="row fourteen black-top">
+    <p class="pCaption el">The Google Light Phone app screens</p>
+    <img class="image lgImg el el-img" src="/assets/google/ui.jpg" alt="google refuge asset" />
+    <!--div class="black-bg" id="ui-black"></div-->
+  </section>
+
+  <section class="row fifteen black-bg">
+    <h3 class="subtitle-black el el-sub">UI DESIGN</h3>
+    <p class="content content-black el">
+      <span class="bolded">IT'S GOOGLE — IN GRAYSCALE</span><br>
+      <span class="sub-bolded">CONSIDERATIONS</span><br>
+      There were three main constraints to consider in developing the UI for the phones: the Google design system, eInk technology, and efficiency. Additionally, knowing the vast majority of camp populations speak Arabic as their first language, the default language is Arabic and all of the text and UI elements are laid out right to left.
+      <br><br>
+    <span class="sub-bolded">OUTCOMES</span><br>
+      The phones ship with six apps — pictured above — selected for their utility when it comes to the resettlement process<!--: Chrome for internet browsing; Gmail for email access and communication; Maps for navigation; Drive for file storage; Translate for language barriers; and WhatsApp for its prevalence as the main texting app among the target population-->. Everything is rendered in grayscale due to the eInk technology. The phone UI and app UIs are all faithful to Google’s design system and the Pixel 2 UI.
+    </p>
+    <a href="https://projects.invisionapp.com/prototype/refuge-cjukal822004a5m01cwecipc9/play/9e032318" target="_blank" class="button">EXPLORE PROTOTYPE</a>
+    <!--div class="black-bg" id="ui-black-2"></div-->
+  </section>
+
+  <section class="row sixteen black-bottom">
+    <p class="pCaption el">The Google Light Phone app icons</p>
+    <img class="image lgImg el el-img" src="/assets/google/icons.gif" alt="google refuge asset" />
+  </section>
+
+  <section class="row seventeen">
+    <div class="sectionNumber el">
+      <h2>03.</h2>
+    </div>
+    <div class="sectionTitle el" id="section3">
+      <h2>WEB DESIGN</h2>
+    </div>
+  </section>
+
+  <section class="row eighteen">
+    <p class="pCaption el">The Google Refuge website</p>
+    <img class="image-odd lgImg el el-img" src="/assets/google/iMac.png" alt="google refuge asset" />
+  </section>
+
+  <section class="row nineteen">
+    <h3 class="el el-sub">WEB DESIGN</h3>
+    <p class="content el">
+      <span class="bolded">AN INNOVATIVE CAMPAIGN ROOTED IN FAMILIARITY</span><br>
+      <span class="sub-bolded">CONSIDERATIONS</span><br>
+      The website should feel familiar to Google users and similar to other Google product pages. The copy and visuals needed to clearly frame the narrative and describe Google's new initiative.
+      <br><br>
+      <span class="sub-bolded">OUTCOMES</span><br>
+      Drawing from the Google Pixel 2 and Google One sites, the resulting design is a unique hybrid that effectively serves as both a campaign platform and the home base for an emerging social good effort.
+    </p>
+    <a class="button button-white" href="/google/index.html" target="_blank">VISIT WEBSITE</a>
+  </section>
+
+  <section class="row twenty">
+    <p class="pCaption el">The Google Refuge "Get Involved" page</p>
+    <img class="image lgImg el el-img" src="/assets/google/web.jpg" alt="google refuge asset" />
+  </section>
+
+  <section class="row twenty1">
+    <div class="sectionNumber el">
+      <h2>04.</h2>
+    </div>
+    <div class="sectionTitle el" id="section4">
+      <h2>DESIGN PROCESS</h2>
+    </div>
+  </section>
+
+  <section class="row twenty2">
+    <h3 class="el el-sub">RESEARCH</h3>
+    <p class="content el">
+      The project began with a topic assignment: the refugee crisis. Our first task, then, was to figure out exactly which sub-problem we wanted to tackle within the larger topic. We established a long list of possibilities by reading countless articles and interviews with past and current refugees, listening to relevant podcast episodes, and researching both UN and US policy documents related to refugees.
+    </p>
+    <div class="image-row">
+      <p class="pCaption el">Identifying potential problem areas to work in</p>
+      <img class="image lgImg el el-img" src="/assets/google/problems.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" />
+    </div>
+  </section>
+
+  <section class="row twenty3">
+    <h3 class="el el-sub">INSIGHT</h3>
+    <p class="content el">
+      As we sifted through the piles of data we collected, one statistic from the UNHCR (United Nations High Commissioner for Refugees) practically leapt off the page:
+      <br><br>
+      <span class="emphasis">Refugees often spend a third of their income on staying connected.</span>
+      <br>
+      And as we further explored the relationship between refugees and communication/connectivity, the role and value of internet access and smartphones in their lives became increasingly apparent. The quote below speaks for itself.
+    </p>
+
+    <div class="content el" style="grid-row: 2;">
+      <blockquote class="quote">See why this phone is so dear? It has everything. All my family, all my world is here. That's why I'm always holding&nbsp;it.</blockquote>
+      <!--br><br>
+      <blockquote class="quote">Without food, we can last for a day or two, but without a smartphone and electricity it will be difficult.</blockquote>
+      <br><br>
+      <blockquote class="quote">We the exiled ones, who live on anti-depressants, Facebook has become our Homeland. It opens the sky they close in our faces at the frontiers.</blockquote>
+      <br><br>
+      <blockquote class="quote">Without my phone, I feel completely lost, stripped, naked, like I am missing a limb.</blockquote-->
+    </div>
+
+    <div class="image-row">
+      <p class="pCaption el">Yemeni refugee shows his son's picture on a mobile phone</p>
+      <img class="image lgImg el el-img" src="/assets/google/refugee-phone1.png" alt="google refuge asset" />
+    </div>
+  </section>
+
+  <section class="row twenty4">
+    <h3 class="el el-sub">BIG IDEA</h3>
+    <p class="content el">
+      Along with the above quotes and statistic, we learned that refugees are about half as likely as the general population to own a phone, and that roughly 30% of refugee households do not even own a phone.
+      <br><br>If phones are often more important than food and water, it was hard for us to imagine how those refugees without access felt — and we wanted to help. This led us to our big idea:
+      <br><br>
+      <span class="emphasis">Provide refugees with smartphones and internet access.</span>
+      <br>
+      Which, of course, is far easier said than done. But it is a noble goal, and it is directly relevant to the UNHCR directive laid out in their 2016 connectivity report:
+    </p>
+
+    <div class="content el" style="grid-row: 2;">
+      <blockquote class="quote">UNHCR believes we can do better. Through creative partnerships and smart investments, UNHCR aims to ensure that all refugees, and the communities that host them, are connected to mobile networks and the internet so that they can leverage these technologies to improve their&nbsp;lives.</blockquote>
+    </div>
+
+    <div class="image-row">
+      <p class="pCaption el">The UNHCR connectivity report: click to view</p>
+      <a class="image el el-img" href="https://www.unhcr.org/5770d43c4.pdf" target="_blank" style="height: calc(100% - 7px);"><img class="lgImg" src="/assets/google/unhcr.jpg" alt="google refuge asset" /></a>
+    </div>
+  </section>
+
+  <section class="row twenty5" id="google" style="padding-top: 60px; margin-top: -60px;">
+    <h3 class="el el-sub">BRAND</h3>
+    <p class="content el">
+      Obviously, this idea would need a large technology company behind it to work. A global brand with the necessary infrastructure, manufacturing capabilities, and corresponding brand mission. Three big ones come to mind&nbsp;...
+    </p>
+
+    <div class="image-row">
+      <p class="pCaption el">Our three brand contenders to lead the project</p>
+      <img class="image lgImg el el-img" src="/assets/google/companies.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" />
+    </div>
+
+    <h3 class="el el-sub row-new">BRAND</h3>
+    <p class="content el row-new">
+      We eliminated Apple first, due to their irrelevant brand mission and closed ecosystem of products and software. Additionally, refugees already tend to use cheap Android smartphone models and are likely more familiar with the Android operating system.
+      <br><br>
+      Google was chosen over Samsung due to the fact that they developed the Android operating system and their history of refugee relief efforts, including device donations and sending volunteers to install WiFi in refugee camps.
+    </p>
+    <a class="button button-white" href="https://www.google.org/our-work/crisis-response/nethope/" target="_blank">GOOGLE GIVES BACK</a>
+
+    <div class="image-row">
+      <p class="pCaption el">Google volunteers with NetHope in Greece</p>
+      <img class="image lgImg el el-img" src="/assets/google/google-gives.jpg" alt="google refuge asset" />
+    </div>
+  </section>
+
+  <section class="row twenty6">
+    <h3 class="el el-sub">BENEFITS</h3>
+    <p class="content el">
+      <span class="bolded">IT'S A WIN-WIN-WIN!</span><br>
+      In order for this plan to work, we had to be sure that all parties involved were benefiting in some way — or else refugees wouldn't use it, Google wouldn't pay for it, and the UNHCR wouldn't allow&nbsp;it.
+      <br><br><span class="sub-bolded">REFUGEES</span><br>
+      Refugees are provided free phones, free WiFi, and free charging (at the Refuge Beacon). The apps included are vital to sharing information, traveling between safe locations, communicating with family members, and organizing important documents for the resettlement process. Additionally, as a congratulations for successful resettlement, they are granted a free Pixel phone from&nbsp;Google.
+      <br><br><span class="sub-bolded">UNHCR</span><br>
+      The UNHCR explicitly states in their report that they are seeking "engagement of the private sector – in particular, large technology companies and mobile network operators – if we are to achieve this vision." If Google were to enact this solution, it would be exactly the kind of private sector support they are looking&nbsp;for.
+      <br><br><span class="sub-bolded">GOOGLE</span><br>
+      While the benefits to Google may have a hard time outweighing the costs financially, they will gain an admirable and invaluable social good reputation. Additionally, this gives them a chance to expand their user base among a less-represented population and develop innovative solutions for those in&nbsp;need.
+    </p>
+
+    <div class="image-row">
+      <p class="pCaption el">Google & the UNHCR working together to help refugees</p>
+      <img class="image lgImg el el-img" src="/assets/google/benefits.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" />
+    </div>
+  </section>
+
+  <section class="row twenty7">
+    <h3 class="el el-sub">EXECUTION</h3>
+    <p class="content el">
+      In order to frame the idea as something realistically possible, we needed to develop assets showing how it could work. These included 3D models of the phone & beacon, a UI prototype of the phone, a campaign website, and a concept video. You can see the finished products in the first three sections&nbsp;above.
+    </p>
+
+    <a class="button button-white" id="process-top" href="{base}/bluesky/google">JUMP TO TOP</a>
+
+    <h3 class="el el-sub row-new">TOOLS</h3>
+    <p class="content el row-new">
+      I used a variety of tools to bring this project to life: Sketch to wireframe the phone OS & apps and website, InVision Studio for the high-fidelity prototype, Cinema 4D for the phone and beacon models & animations, and my three favorite front-end technologies (HTML, CSS, jQuery) for the live website.
+    </p>
+
+    <div class="image-row">
+      <p class="pCaption el">Tools & technologies used in this project</p>
+      <img class="image lgImg el el-img" src="/assets/google/tools.png" style="outline: 1px solid var(--primary-black);" alt="google refuge asset" />
+    </div>
+
+    <h3 class="el el-sub row-new">TEAM</h3>
+    <p class="content el row-new">
+      I had two team members with me on this project. <a class="inlink" href="https://pineappleperry.com/" target="_blank">Joshua Perry, copywriter</a>, and <a class="inlink" href="https://joejones.work/" target="_blank">Joe Jones, art director</a>. Josh was essential in capturing the dual emotional / explanatory tone needed on the campaign website and video. Joe helped us define our concept and pushed for creating our own phones, edited and voiced-over the video, and mocked up the Refuge Beacon 3D model in Cinema 4D. These folks are incredible — be sure to check them&nbsp;out.
+    </p>
+  </section>
+
+  <section class="row twenty8"></section>
+
+</main>
+
+
+<style lang="scss">
+/* ==========================
+-- DOCUMENT                --
+========================== */
+
+
+/* variables */
+
+:root{
+  --primary-black: black;
+  --primary-white: white;
+  --secondary-black: #444;
+  --secondary-white: #d8d8d8;
+  --tertiary-black: #777;
+  --primary-highlight: red;
+
+  --primary-text-light: white;
+  --primary-text-dark: black;
+
+  --primary-font-family: "Days One", "Helvetica Neue", serif;
+  --secondary-font-family: "Forum", "Helvetica Neue", sans-serif;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  background-color: var(--primary-white);
+  transition: background-color 250ms;
+}
+
+p, h1, h2, h3, h4, h5, li{
+  cursor: default;
+}
+
+a{
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  transition: color 250ms;
+}
+
+h1{
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-dark);
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0;
+  transition: color 250ms;
+}
+
+h2{
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-dark);
+  font-size: 36px;
+  letter-spacing: 0;
+  transition: color 250ms;
+}
+
+h3{
+  font-family: var(--primary-font-family);
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: var(--primary-text-light);
+
+  grid-column: subtitle;
+  align-self: center;
+  justify-self: center;
+  transition: color 250ms;
+}
+
+h4{
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-dark);
+  font-size: 20px;
+  letter-spacing: 0;
+  transition: color 250ms;
+}
+
+p.pHero{
+  font-family: var(--secondary-font-family);
+  color: var(--primary-text-dark);
+  font-size: 32px;
+  letter-spacing: 0.25px;
+  transition: color 250ms;
+  font-weight: 300;
+}
+
+p.pFeatured{
+  font-family: var(--secondary-font-family);
+  color: var(--primary-text-dark);
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  transition: color 250ms;
+}
+
+p.pCaption{
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-white);
+  font-size: 11px;
+  color: #ddd;
+  /*opacity: 0.85;*/
+  text-align: right;
+  font-weight: 300;
+
+  grid-column: caption;
+  align-self: center;
+  padding: 24px;
+  border-top: 1px solid rgba(255,255,255,0.75);
+  border-bottom: 1px solid rgba(255,255,255,0.75);
+  transition: color 250ms;
+}
+
+p{
+  font-family: var(--secondary-font-family);
+  color: var(--primary-text-dark);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.75em;
+  transition: color 250ms;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+/* ==========================
+-- NAV                     --
+========================== */
+
+nav{
+  position: fixed;
+  width: 100vw;
+  transition: all 250ms ease;
+  z-index: 9999;
+}
+
+.jumpLinks{
+  padding: 130px 16px 0 16px;
+  width: 25vw;
+  background-color: var(--primary-black);
+  justify-self: center;
+}
+
+.jumpTitle{
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  line-height: 52px;
+  color: var(--primary-text-light);
+  border-bottom: 1px solid var(--primary-white);
+  display: block;
+  margin-bottom: 15px;
+}
+
+.jumpLinks a{
+  color: var(--primary-text-light);
+  display: block;
+  opacity: 0.35;
+}
+
+.navTitle, .navLinks a{
+  color: var(--primary-text-dark);
+  display: block;
+}
+
+.navTitle{
+  border-bottom: 1px solid var(--primary-black);
+  margin-bottom: 15px;
+}
+
+.navTitleLink{
+  border-bottom: 1px solid var(--primary-black);
+  margin-bottom: 15px;
+  transition: transform 500ms ease;
+}
+.navTitleLink:hover{
+  transform: translateX(4px);
+}
+
+.navigator{
+  overflow-y: scroll;
+  max-height: calc(100vh - 256px);
+  text-indent: 18px;
+  margin-bottom: 15px;
+}
+
+.navigator a{
+  transition: all 500ms ease;
+}
+
+.navigator a:hover{
+  opacity: 1;
+}
+
+.active{
+  opacity: 1!important;
+}
+
+.hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.siteNav{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  font-size: 18px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  line-height: 52px;
+  /*background-color: var(--primary-white);*/
+  font-family: var(--primary-font-family);
+
+  display: flex;
+}
+
+.navLinks{
+  width: 75vw;
+  display: inline-block;
+  padding: 130px;
+  /*background-color: var(--primary-white);*/
+  position: relative;
+}
+
+.navLinks .navigator a{
+  z-index: 99;
+  opacity: 0.35;
+}
+
+.navLinks .navigator a:hover{
+  opacity: 1;
+}
+
+div.navHover{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-position: 25% 198px;
+  transition: background 500ms, opacity 1s;
+  z-index: -1;
+  display: none;
+}
+
+.navLinks .navigator a:hover ~ div.navHover{
+  opacity: 1;
+  background-position: 75% 198px;
+  background-size: auto 208px;
+  background-repeat: no-repeat;
+}
+
+#sustain:hover ~ div.navHover{
+  background-image: url('/assets/sustain/unplug_.png');
+  /*background-color: #2C67D5;*/
+}
+
+#depot:hover ~ div.navHover{
+  background-image: url('/assets/depot/navThumb_.png');
+  /*background-color: #FE6900;*/
+}
+
+#america:hover ~ div.navHover{
+  background-image: url('/assets/america/navThumb.png');
+  /*background-color: #333;*/
+}
+
+#twitch:hover ~ div.navHover{
+  background-image: url('/assets/twitch/navThumb.png');
+  /*background-color: #6C3AAA;*/
+}
+
+div.navBG{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-white);
+  z-index: -2;
+}
+
+#credits{
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+#page-nav{
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 56px;
+  height: 56px;
+  padding: 6px;
+  background-color: var(--primary-black);
+  display: flex;
+  flex-flow: column;
+  z-index: 999;
+}
+#page-nav img{
+  height: 32px;
+  width: auto;
+}
+#page-nav p{
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-light);
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+/* ==========================
+-- PAGE                    --
+========================== */
+
+.unselectable {
+  user-select: none;
+}
+
+.page{
+  display: grid;
+  grid-row-gap: 120px;
+  grid-template-columns: [header-start caption-start sidebar-start] 1fr 1fr [header-end caption-end img-start subtitle-start] 1fr [sidebar-end subtitle-end] 1fr [content-start] 6fr [img-end content-end gutter-start] 1fr [gutter-end deadspace] 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.content{
+  grid-column: content;
+  align-self: center;
+}
+
+.content-black, .subtitle-black{
+  color: var(--primary-text-light);
+}
+
+#ovSub{
+  margin: 80px 0 0 0;
+}
+
+.image{
+  grid-column: img;
+  border: 4px solid var(--primary-white);
+  box-shadow: 16px 16px var(--primary-black);
+  transition: box-shadow 250ms;
+}
+/*
+svg{
+  display: inline-block;
+  grid-column: img;
+  position: absolute;
+  fill: var(--primary-white);
+  right: 16px;
+  top: 12px;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
+.image:hover ~ svg, svg:hover{
+  opacity: 0.75;
+}
+.hidden{
+  opacity: 0;
+}
+*/
+
+.image-odd{
+  grid-column: img;
+}
+
+.full-width, img.full-width, .image-row img.full-width{
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+p.caption-fw{
+  grid-row: 1;
+  z-index: 99;
+  background-color: rgba(0,0,0,0.75);
+  border-top: 4px solid var(--primary-white);
+  border-bottom: 4px solid var(--primary-white);
+  align-self: end;
+}
+
+.smImg{
+  max-width: 16.6vw;
+}
+
+.mdImg{
+  max-width: 80%;
+}
+
+.lgImg{
+  max-width: 100%;
+}
+
+.iframer{
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframer iframe{
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.inlink{
+  font-family: var(--secondary-font-family);
+  border-bottom: 1px dashed rgba(0,0,0,0.75);
+  text-decoration: none;
+  color: var(--primary-text-dark);
+  transition: border 250ms;
+}
+
+.inlink-black{
+  color: var(--primary-text-light);
+  border-bottom: 1px dashed rgba(255,255,255,255.75);
+}
+
+.inlink:hover{
+  border-bottom: 1px solid rgba(0,0,0,0.75);
+}
+
+.inlink-black:hover{
+  border-bottom: 1px solid rgba(255,255,255,0.75);
+}
+
+.bolded{
+  display: block;
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+}
+
+.emphasis{
+  display: block;
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  padding: 0 calc(100vw/24);
+}
+
+#product::after{
+  content: 'PRODUCT DESIGN';
+  position: absolute;
+  bottom: 0;
+  font-size: 10em;
+  opacity: 0.15;
+}
+
+.sub-bolded{
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 0.75;
+  line-height: 2.5em;
+}
+
+blockquote.quote{
+  position: relative;
+  padding: 12px 2.25em;
+  background-color: var(--secondary-white);
+  border-left: 4px solid var(--primary-black);
+  border-right: 4px solid var(--primary-black);
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  max-width: 90%;
+  line-height: 2em;
+  opacity: 0.75;
+  widows: 3;
+  orphans: 3;
+}
+blockquote.quote-black{
+  background-color: var(--secondary-black);
+  border-left: 4px solid var(--primary-white);
+  border-right: 4px solid var(--primary-white);
+  color: var(--primary-text-light);
+}
+blockquote.quote::before{
+  content: '\201C';
+  position: absolute;
+  top: 0.25em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3rem;
+  height: 2rem;
+  font-family: Arial;
+  font-size: 6em;
+  font-style: normal;
+  opacity: 0.25;
+  z-index: 1;
+}
+blockquote.quote-black::before{
+  color: var(--primary-text-light);
+  opacity: 0.5;
+}
+
+.list{
+  grid-row-start: content-start;
+  list-style-type: none;
+  width: auto;
+  font-family: var(--primary-font-family);
+  text-indent: 12px;
+  border: 2px solid var(--primary-black);
+  box-shadow: 6px 6px var(--primary-black);
+  padding: 8px;
+  margin: 48px 0;
+  transition: box-shadow 250ms;
+}
+
+.list li{
+  font-weight: 700;
+  padding: 6px;
+  text-transform: uppercase;
+}
+
+.black-top, .black-bottom, .black-bg{
+  position: relative;
+}
+.black-bg{
+  background-color: var(--primary-black);
+  transition: background-color 250ms;
+}
+.black-top::after, .black-bottom::before{
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: var(--primary-black);
+  width: 100vw;
+  height: 100%;
+  transition: background-color 250ms;
+  z-index: -99;
+}
+.black-top::after{
+  top: 50%;
+}
+.black-bottom::before{
+  bottom: 50%;
+}
+
+a.button{
+  grid-column: content;
+  display: block;
+  font-family: var(--primary-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  color: var(--primary-text-dark);
+  background-color: var(--primary-white);
+  height: 60px;
+  width: 50%;
+  padding: 10px 16px;
+  line-height: 40px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-black);
+  box-shadow: 4px 4px var(--primary-white);
+  transition-property: color, background-color, border, box-shadow, transform;
+  transition-duration: 400ms;
+  cursor: pointer;
+}
+a.button-white{
+  color: var(--primary-text-light);
+  background-color: var(--primary-black);
+  border: 1px solid var(--primary-white);
+  box-shadow: 4px 4px var(--primary-black);
+}
+a.button:hover{
+  color: var(--primary-text-light);
+  background-color: var(--primary-black);
+  border: 2px solid var(--primary-white);
+  animation: btn-animate 4s linear infinite;
+  transform: scale(1.1);
+}
+a.button-white:hover{
+  color: var(--primary-text-dark);
+  background-color: var(--primary-white);
+  border: 2px solid var(--primary-black);
+}
+
+@keyframes btn-animate{
+  0%{ box-shadow: -10px 4px #FF5429; }
+  12.25%{ box-shadow: 10px 4px #FF5429, 10px -4px #2969FF; }
+  25%{ box-shadow: 10px -4px #FF5429; }
+  37.5%{ box-shadow: -10px 4px #FF5429, -10px -4px #FF5429; }
+  50%{ box-shadow: -10px -4px #FFBF29; }
+  62.5%{ box-shadow: 10px -4px #FF5429, 10px 4px #2969FF; }
+  75%{ box-shadow: 10px 4px #FF5429; }
+  87.5%{ box-shadow: -10px -4px #FF5429, -10px 4px #FF5429; }
+  100%{ box-shadow: -10px 4px #FFBF29; }
+}
+/*
+.el{
+  opacity: 0;
+
+}
+
+.el-in{
+  transform: translateY(150px);
+  animation: el-in 0.8s ease forwards;
+}
+.el-in-sub{
+  transform: translateX(-75px) rotate(180deg);
+  animation: sub-in 0.8s ease forwards;
+}
+.el-in-media{
+  transform: translate(-50px,100px);
+  animation: media-in 0.8s ease forwards;
+}
+@keyframes el-in{
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes sub-in{
+  to { transform: translateX(0) rotate(180deg); opacity: 1; }
+}
+@keyframes media-in{
+  to { transform: translate(0,0); opacity: 1; }
+}
+*/
+
+/* collapsible styles */
+
+.wrap-collapsible {
+  margin-top: -60px;
+  padding: 0 calc(100vw/24);
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: block;
+
+  font-weight: bold;
+  font-family: var(--primary-font-family);
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.75rem;
+  color: var(--primary-text-dark);
+  background: var(--primary-white);
+  cursor: pointer;
+  box-shadow: 2px 2px var(--primary-black), -2px 2px var(--primary-black);
+  border-top: 1px solid var(--primary-black);
+  border-radius: 5px;
+  transition: color 0.25s ease-out, background 0.25s ease-out, box-shadow 250ms;
+}
+
+.lbl-toggle:hover {
+  color: var(--primary-text-light);
+  background: var(--primary-black);
+}
+
+.lbl-toggle::before, .lbl-toggle::after {
+  content: '⇣';
+  font-size: 0.75rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: .5rem;
+  transform: translateY(-1px);
+  transition: transform .2s ease-out;
+}
+.lbl-toggle::after{
+  margin-left: 0.5rem;
+}
+.toggle:checked + .lbl-toggle::before, .toggle:checked + .lbl-toggle::after {
+  transform: rotate(180deg) translateY(2px);
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 350px;
+}
+
+.toggle:checked + .lbl-toggle {
+  color: var(--primary-text-light);
+  background: var(--primary-black);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transform: translateY(2px);
+}
+
+.collapsible-content .collapsible-inner {
+  background-color: var(--secondary-white);
+  border-bottom: 1px solid var(--primary-black);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: .5rem 1rem;
+}
+.collapsible-inner p{
+  font-size: 0.8rem;
+}
+
+
+/* footer styles */
+
+footer{
+  margin-top: -120px;
+  z-index: 99;
+}
+.footer-left{
+  grid-column: sidebar;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#email{
+  display: block;
+  color: var(--primary-text-dark);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto;
+  width: auto;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: transform 200ms;
+}
+
+#email:hover{
+  transform: translateY(-3px);
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  max-width: 50%;
+  margin: 24px auto 0 auto;
+}
+.social a{
+  padding: 4px;
+  transition: transform 200ms;
+}
+.social img{
+  height: 24px;
+}
+.social a:hover{
+  transform: translateY(-3px);
+}
+.footer-right{
+  grid-column: sidebar-end / -1;
+  /*padding: 40px 0;*/
+  background-color: var(--primary-black);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-half{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 250ms;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 250px;
+}
+#footer-google{
+  background-image: url(/assets/google/phone3d.gif);
+}
+#footer-sustain{
+  background-image: url(/assets/sustainThumb.png);
+}
+#footer-crooked{
+  background-image: url(/assets/america/thumb.png);
+}
+.footer-half:hover{
+  background-position: center;
+}
+.footer-right p{
+  color: var(--primary-text-light);
+  font-family: var(--primary-font-family);
+  padding: 1.5em 3em;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+
+
+/* ==========================
+-- CONTENT                 --
+========================== */
+
+#sideBlack{
+  grid-row: 1/29;
+  grid-column: sidebar;
+  background-color: var(--primary-black);
+  transition: background-color 250ms;
+  z-index: -1;
+}
+
+#empty{
+  grid-row: 1/2;
+  grid-column: content;
+}
+
+.menu, .home{
+  transition: transform 250ms;
+}
+.menu:hover, .home:hover{
+  transform: scale(1.1);
+}
+
+.icons{
+  grid-row: 1/2;
+  grid-column: header;
+  position: sticky;
+  background-color: var(--primary-black);
+  top: 0;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  will-change: transform;
+  transition: transform 1s, opacity 0.35s, background-color 250ms;
+  z-index: 9997;
+}
+
+.jump-links{
+  background-color: var(--primary-black);
+  font-size: 18px;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  color: var(--primary-text-light);
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 25vw;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  box-shadow: 0 24px var(--primary-black), 0 -24px var(--primary-black);
+  opacity: 0;
+  transition: opacity 400ms;
+  z-index: -99;
+  display: none;
+}
+.jump-title{
+  font-family: var(--primary-font-family);
+}
+.jump-links > a.jump-link{
+  color: var(--primary-text-light);
+  font-size: 18px;
+  opacity: 0.45;
+  transition: opacity 250ms;
+}
+a.jump-link:hover{
+  opacity: 1;
+}
+.menu:hover ~ .jump-links, .jump-links:hover{
+  display: flex;
+  opacity: 1;
+}
+
+.nav-aid{
+  font-weight: 400;
+  font-family: var(--primary-font-family);
+  font-size: 12px;
+  letter-spacing: 1px;
+  opacity: 0.65;
+}
+
+.icons-up{
+  transform: translateY(-200px);
+  opacity: 0;
+}
+
+.icons a{
+  font-size: 0;
+}
+
+.icons img{
+  width: auto;
+  height: 40px;
+  margin: 6px 12px;
+}
+
+.row{
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: inherit;
+  grid-row-gap: 60px;
+  position: relative;
+}
+
+.image-row{
+  display: grid;
+  grid-template-columns: inherit;
+  grid-column: 1/-1;
+  margin-top: 60px;
+}
+.image-row p{
+  grid-column: caption;
+}
+
+.image-row img{
+  grid-column: img;
+}
+
+.row-new{
+  margin-top: 60px;
+}
+#hero{
+  grid-row: 1;
+  grid-column: img;
+  height: auto;
+  width: auto;
+  max-width: 17vw; 
+  max-height: 65vh;
+  margin-top: -80px;
+}
+
+#heroText{
+  grid-row: 1;
+  padding: 0 0 0 8vw;
+  margin-top: -80px;
+}
+
+#titleBlock{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#titleBlock a{
+  margin-right: 16px;
+  padding: 16px;
+  transition: all 250ms ease;
+}
+#titleBlock a:hover{
+  transform: scale(1.2);
+}
+
+#titleBlock img{
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  max-width: 40px;
+}
+
+div.disciplines{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discipline, .ux{
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0;
+  border-bottom: 1px solid transparent;
+}
+
+p.ux{
+  color: var(--primary-text-dark);
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.discipline{
+  color: var(--tertiary-black);
+  text-align: center;
+  min-width: 60px;
+  margin: 8px 12px 0 0;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+
+.discipline-2{
+  margin-top: 16px;
+  cursor: default;
+}
+
+.discipline:hover{
+  color: var(--primary-text-dark);
+  box-shadow: 0 0 16px rgba(0,0,0,0.15);
+  border-bottom: 1px solid var(--primary-black);
+  transform: translateY(-2px);
+}
+
+a.discipline:active{
+  transform: scale(1) translateY(2px);
+}
+
+a.experience{
+  position: relative;
+  display: inline-block;
+  color: var(--primary-text-dark);
+  font-weight: 700;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+  margin-top: 16px;
+  padding: 10px 16px 10px 0;
+  transition: color 400ms, padding 200ms, box-shadow 400ms, border 400ms, outline 400ms;
+  z-index: 1;
+}
+
+a.experience:hover{
+  color: var(--primary-text-light);
+  padding: 10px 16px;
+  border: 2px solid yellow;
+  box-shadow: -4px -4px red, 4px 4px blue;
+  outline: 1px solid var(--primary-white);
+}
+
+a.experience::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: var(--primary-black);
+  opacity: 0;
+  transition: width 400ms, opacity 400ms;
+  z-index: -1;
+}
+a.experience:hover::after{
+  width: 100%;
+  opacity: 1;
+}
+
+#ovText{
+  margin-top: 80px;
+}
+
+.sectionNumber{
+  grid-row: 1;
+  grid-column: sidebar;
+  background-color: var(--primary-white);
+  border-top: 2px solid var(--primary-black);
+  border-bottom: 2px solid var(--primary-black);
+  align-self: center;
+  text-align: center;
+  padding: 40px 0;
+  margin: 120px 0 -60px 0;
+  z-index: 9998;
+}
+.sectionTitle{
+  grid-row: 1;
+  grid-column: 3 / -1;
+  border-top: 2px solid var(--primary-black);
+  border-bottom: 2px solid var(--primary-black);
+  align-self: center;
+  padding: 40px 0 40px 8.3vw;
+  margin: 120px 0 -60px 0;
+  background-color: var(--primary-white);
+  z-index: 9998;
+}
+
+#ui-black{
+  height: calc(120% + 120px);
+  margin-top: 20%;
+}
+
+#ui-black-2{
+  height: calc(100% + 50px);
+  margin-top: 220px;
+}
+
+.two{
+  grid-row: 2;
+}
+
+.three{
+  grid-row: 3;
+}
+
+.four{
+  grid-row: 4;
+}
+
+.five{
+  grid-row: 5;
+}
+
+.six{
+  grid-row: 6;
+}
+
+.seven{
+  grid-row: 7;
+}
+
+.eight{
+  grid-row: 8;
+}
+
+.nine{
+  grid-row: 9;
+}
+
+.ten{
+  grid-row: 10;
+}
+
+.eleven{
+  grid-row: 11;
+}
+
+.twelve{
+  grid-row: 12;
+}
+
+.thirteen{
+  grid-row: 13;
+}
+
+.fourteen{
+  grid-row: 14;
+}
+
+.fifteen{
+  grid-row: 15;
+}
+
+.sixteen{
+  grid-row: 16;
+}
+
+.seventeen{
+  grid-row: 17;
+}
+
+.eighteen{
+  grid-row: 18;
+}
+
+.nineteen{
+  grid-row: 19;
+}
+
+.twenty{
+  grid-row: 20;
+}
+
+.twenty1{
+  grid-row: 21;
+}
+
+.twenty2{
+  grid-row: 22;
+}
+
+.twenty3{
+  grid-row: 23;
+}
+
+.twenty4{
+  grid-row: 24;
+}
+
+.twenty5{
+  grid-row: 25;
+}
+
+.twenty6{
+  grid-row: 26;
+}
+
+.twenty7{
+  grid-row: 27;
+}
+
+.twenty8{
+  grid-row: 28;
+}
+
+.twenty9{
+  grid-row: 29;
+}
+
+
+
+
+
+/* ==========================
+-- SCREENS                 --
+========================== */
+
+@media screen and (max-width: 900px){
+
+  .icons{
+    position: fixed;
+    flex-flow: column;
+  }
+
+  .icons img{
+    height: calc(8.2vw - 20px);
+    padding: 4px;
+    margin: 6px 10px;
+  }
+
+  .image, .image-odd{
+    grid-column: 3 / -2;
+  }
+
+  .content, a.button{
+    grid-column: 4 / -2;
+    margin-left: 24px;
+  }
+
+  .two{
+    margin-top: -160px;
+  }
+  .two > *{
+    margin-left: 24px;
+  }
+
+  #hero{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  #heroText{
+    grid-row-start: 2;
+    padding: 0;
+  }
+
+  h3{
+    grid-column: 2/3;
+  }
+
+  p.pCaption{
+    opacity: 0;
+  }
+
+}
+
+@media screen and (max-width: 780px){
+
+  .navLinks{
+    padding: 90px;
+  }
+
+  .icons{
+    width: 16.5vw;
+    padding-top: 10px;
+  }
+
+  .icons img{
+    height: calc(6.5vw);
+    margin: 6px 10px;
+  }
+
+  #hero{
+    max-width: 28vw; 
+  }
+
+  h3{
+    grid-column: 1/3;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .page{
+    grid-row-gap: 60px;
+  }
+
+  #theme{
+    top: 56px;
+    right: -100px;
+    display: none;
+  }
+  /*#theme::after{
+    content: '🎨';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 50%;
+    left: -64px;
+  }*/
+
+  #sideBlack{
+    display: none;
+  }
+
+  .icons{
+    width: 100vw;
+    padding-top: 0;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  .icons a{
+    margin: 0 12px;
+  }
+
+  .icons img{
+    height: 8vw;
+    margin: 6px 10px;
+  }
+
+  #hero{
+    margin-left: 0;
+    grid-column-start: 3;
+  }
+
+  .image, .image-odd, .image-row img, .image-row a{
+    grid-column: 1 / -1;
+  }
+
+  .image-row, .row-new{
+    margin-top: 0;
+  }
+
+  .content, a.button{
+    grid-column: 3 / -2;
+    margin-left: 0;
+  }
+
+  footer{
+    margin-top: -60px;
+  }
+
+  .social{
+    max-width: 100%;
+  }
+
+  #email{
+    padding: 6px 2px;
+    font-size: calc(2vw + 5px);
+  }
+
+  .navLinks{
+    width: 100vw;
+    padding: 30px;
+  }
+
+  .siteNav, .jumpTitle{
+    font-size: 14px;
+    letter-spacing: 0.5;
+    line-height: 28px;
+  }
+
+  .siteNav{
+    flex-flow: column;
+    height: 100vh;
+    background-color: var(--primary-white);
+  }
+
+  .jumpLinks{
+    width: 100vw;
+    padding: 60px 30px 30px 30px;
+  }
+
+  .navigator{
+    text-indent: 6px;
+  }
+
+  .image{
+    border: 2px solid var(--primary-white);
+    box-shadow: 12px 4px var(--primary-black), -12px -4px var(--primary-black);
+  }
+
+  a.button{
+    width: 75%;
+    font-size: 15px;
+    height: 48px;
+    line-height: 34px;
+    padding: 6px 10px;
+  }
+
+  h1{
+    font-size: 48px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  h3{
+    font-size: 22px;
+    color: var(--primary-text-dark);
+  }
+
+  .black-bg h3{
+    color: var(--primary-text-light);
+  }
+
+  h4{
+    font-size: 18px;
+  }
+
+  p.pHero{
+    font-size: 22px;
+    letter-spacing: 0.25px;
+  }
+
+  p.pFeatured{
+    font-size: 18px;
+  }
+
+  p.pCaption{
+    margin-top: -80px;
+    grid-row: 2;
+    grid-column: 4 / -1;
+    padding: 10px 8px 6px 0;
+    border-bottom: 1px solid;
+    color: #b3b3b3;
+  }
+
+  .image-row p.pCaption{
+    margin-top: 0;
+  }
+
+  p{
+    font-size: 13px;
+  }
+
+  .bolded{
+    font-size: 16px;
+  }
+
+  .emphasis{
+    font-size: 15px;
+  }
+
+  .sectionNumber, .sectionTitle{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 80px 0 -20px 0;
+  }
+
+  div.disciplines{
+    flex-flow: column wrap;
+    align-items: flex-start;
+  }
+
+  blockquote.quote{
+    font-size: 14px;
+  }
+
+  @keyframes sub-in{
+    to { transform: translateX(0) rotate(180deg); opacity: 0.75; }
+  }
+
+}
+</style>

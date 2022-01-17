@@ -25,7 +25,7 @@
           <li>{tag}</li>
         {/each}
       </ul>
-      <div>
+      <div class="view">
         <p>View Project</p>
         <Icon title="arrow-right" />
       </div>
@@ -39,7 +39,18 @@
     display: block;
     max-width: 800px;
     cursor: pointer;
+
+    &:hover {
+      div.view {
+        margin-left: 8px;
+
+        p {
+          margin-right: 12px;
+        }
+      }
+    }
   }
+
   article {
     display: flex;
     flex-direction: row;
@@ -95,8 +106,15 @@
         }
       }
 
-      div {
+      div.view {
         display: flex;
+        transition: margin 400ms;
+
+        p {
+          font-weight: 600;
+          margin-right: 8px;
+          transition: margin 400ms;
+        }
       }
     }
   }

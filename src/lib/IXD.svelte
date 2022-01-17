@@ -9,19 +9,19 @@
   <div class="imgWrap">
     <img class="image" src="{base}/ixd/nike.png" alt="nike" />
     <img class="gif" src="{base}/ixd/nike.gif" alt="nike" />
-    <div class="phone"></div>
+    <div class="phone" style="background-image: url('{base}/ixd/iphonex_2.png');"></div>
   </div>
 
   <div class="imgWrap">
     <img class="image" src="{base}/ixd/reserve.png" alt="reserve" />
     <img class="gif" src="{base}/ixd/reserve.gif" alt="reserve" />
-    <div class="phone"></div>
+    <div class="phone" style="background-image: url('{base}/ixd/iphonex_2.png');"></div>
   </div>
 
   <div class="imgWrap">
     <img class="image" src="{base}/ixd/menu.png" alt="menu" />
     <img class="gif" src="{base}/ixd/menu.gif" alt="menu" />
-    <div class="phone"></div>
+    <div class="phone" style="background-image: url('{base}/ixd/iphonex_2.png');"></div>
   </div>
 </article>
 
@@ -67,7 +67,6 @@
         left: 0;
         width: 284px;
         height: 574px;
-        background-image: url('/ixd/iphonex_2.png');
         background-size: 100% 100%;
         z-index: 9;
       }

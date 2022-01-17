@@ -1,5 +1,5 @@
 <script>
-  import { base } from '$app/paths';
+	import { base } from '$app/paths';
 	import Icon from '$lib/Icon.svelte';
 
 	export const prerender = true;
@@ -134,7 +134,7 @@
 			beneficial to be able to bounce ideas and prototypes off of the actual end-users of the
 			product. After we identified the core features of the app (onboarding, profile, discover,
 			schedule, book, review, invoice), we were able to outline user flows and process patterns, and
-			even begin to build a milestone map for the actual build.
+			even begin to brainstorm a milestone map for the actual build.
 		</p>
 		<div class="imgset imgset-4">
 			<img src="{base}/kinis/trainerpath.png" alt="coach flow" />
@@ -158,10 +158,9 @@
 			responsibility for its overall development. Some of the work includes: designing a flexible UI
 			kit in Figma; setting up and managing our JIRA board, writing tickets, and defining
 			development milestones; owning our product hub in Notion; directing the dev team and
-			responding to tech queries. Although I am exposed to much of these responsibilities in my day
-			job at a software agency, this was my first time leading a team and delegating
-			responsibilities to those under me. I count it as one of my most important adn influential
-			projects to date.
+			responding to tech queries. Although I am exposed to many of these responsibilities in my day
+			job at a software agency, this was my first time leading a team and delegating to those under
+			me. I count it as one of my most important and influential projects to date.
 		</p>
 	</section>
 

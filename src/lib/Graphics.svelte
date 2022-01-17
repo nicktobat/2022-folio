@@ -97,8 +97,8 @@
 				135deg,
 				transparent 0px,
 				transparent 2px,
-				black 2px,
-				black 3px
+				$black 2px,
+				$black 3px
 			),
 			repeating-linear-gradient(45deg, transparent 0px, transparent 2px, black 2px, black 3px);
 		padding: 40px 24px;
