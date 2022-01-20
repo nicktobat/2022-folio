@@ -75,8 +75,10 @@
     }
 
     section {
+      height: 208px;
       display: flex;
       flex-flow: column nowrap;
+      justify-content: center;
       padding: 32px 40px;
 
       > :not(:first-child) {

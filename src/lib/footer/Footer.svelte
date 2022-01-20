@@ -6,11 +6,13 @@
   import Clipboard from 'svelte-clipboard'
   import Icon from '$lib/Icon.svelte'
 
+  let darks = ['/prod/', '/bluesky/'];
+  let path = $page.url.pathname;
   console.log($page.url.pathname);
 </script>
 
 
-<footer class:darkmode="{$page.url.pathname.includes('/prod/')}">
+<footer class:darkmode="{path.includes('/prod/')}">
 
   <hr />
 

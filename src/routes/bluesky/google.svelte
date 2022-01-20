@@ -8,8 +8,8 @@
   <div id="sideBlack"></div>
   <div id="empty"></div>
 
-  <div class="icons">
-    <a class="home" href="/index.html">
+  <!-- <div class="icons">
+    <a class="home" href="{base}">
       <img id="logo" src="#" alt="google refuge asset" />
     </a>
     <a class="menu" href="{base}">
@@ -22,12 +22,12 @@
       <a class="jump-link" data-id="2"  href="#section2">UI</a>
       <a class="jump-link" data-id="3"  href="#section3">WEB</a>
       <a class="jump-link" data-id="4"  href="#section4">PROCESS</a>
-    </div-->
-  </div>
+    </div>
+  </div> -->
 
 
   <section class="row two">
-    <img id="hero" src="/assets/google/lightPhone.png" class="smImg" alt="google refuge asset" />
+    <!-- <img id="hero" src="/assets/google/lightPhone.png" class="smImg" alt="google refuge asset" /> -->
     <div id="heroText" class="content">
       <!--div id="titleBlock">
         <h1>Google Refuge</h1>
@@ -79,7 +79,7 @@
 
   <section class="row eight">
     <p class="pCaption el">Close-up view of the Google Refuge Beacon</p>
-    <img class="image lgImg el el-img" src="/assets/google/beacon05.jpg" alt="google refuge asset" />
+    <!-- <img class="image lgImg el el-img" src="/assets/google/beacon05.jpg" alt="google refuge asset" /> -->
   </section>
   
   <section class="row nine">
@@ -93,9 +93,9 @@
 
   <section class="row ten">
     <p class="pCaption el">The Google Light Phone</p>
-    <video class="image lgImg el el-img" autoplay="" muted="" playsinline="" loop>
+    <!-- <video class="image lgImg el el-img" autoplay="" muted="" playsinline="" loop>
       <source src="/assets/google/light.mp4" type="video/mp4">
-    </video>
+    </video> -->
   </section>
 
   <section class="row eleven">
@@ -112,7 +112,7 @@
 
   <section class="row twelve">
     <p class="pCaption el">The Google Light Phone technical specifications</p>
-    <img class="image lgImg el el-img" src="/assets/google/techSpecs.jpg" style="outline: 1px solid var(--primary-black);" alt="google refuge asset" />
+    <!-- <img class="image lgImg el el-img" src="/assets/google/techSpecs.jpg" style="outline: 1px solid var(--primary-black);" alt="google refuge asset" /> -->
   </section>
 
   <section class="row thirteen">
@@ -126,7 +126,7 @@
 
   <section class="row fourteen black-top">
     <p class="pCaption el">The Google Light Phone app screens</p>
-    <img class="image lgImg el el-img" src="/assets/google/ui.jpg" alt="google refuge asset" />
+    <!-- <img class="image lgImg el el-img" src="/assets/google/ui.jpg" alt="google refuge asset" /> -->
     <!--div class="black-bg" id="ui-black"></div-->
   </section>
 
@@ -146,7 +146,7 @@
 
   <section class="row sixteen black-bottom">
     <p class="pCaption el">The Google Light Phone app icons</p>
-    <img class="image lgImg el el-img" src="/assets/google/icons.gif" alt="google refuge asset" />
+    <!-- <img class="image lgImg el el-img" src="/assets/google/icons.gif" alt="google refuge asset" /> -->
   </section>
 
   <section class="row seventeen">
@@ -160,7 +160,7 @@
 
   <section class="row eighteen">
     <p class="pCaption el">The Google Refuge website</p>
-    <img class="image-odd lgImg el el-img" src="/assets/google/iMac.png" alt="google refuge asset" />
+    <!-- <img class="image-odd lgImg el el-img" src="/assets/google/iMac.png" alt="google refuge asset" /> -->
   </section>
 
   <section class="row nineteen">
@@ -173,12 +173,12 @@
       <span class="sub-bolded">OUTCOMES</span><br>
       Drawing from the Google Pixel 2 and Google One sites, the resulting design is a unique hybrid that effectively serves as both a campaign platform and the home base for an emerging social good effort.
     </p>
-    <a class="button button-white" href="/google/index.html" target="_blank">VISIT WEBSITE</a>
+    <!-- <a class="button button-white" href="/google/index.html" target="_blank">VISIT WEBSITE</a> -->
   </section>
 
   <section class="row twenty">
     <p class="pCaption el">The Google Refuge "Get Involved" page</p>
-    <img class="image lgImg el el-img" src="/assets/google/web.jpg" alt="google refuge asset" />
+    <!-- <img class="image lgImg el el-img" src="/assets/google/web.jpg" alt="google refuge asset" /> -->
   </section>
 
   <section class="row twenty1">
@@ -197,7 +197,7 @@
     </p>
     <div class="image-row">
       <p class="pCaption el">Identifying potential problem areas to work in</p>
-      <img class="image lgImg el el-img" src="/assets/google/problems.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" />
+      <!-- <img class="image lgImg el el-img" src="/assets/google/problems.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" /> -->
     </div>
   </section>
 
@@ -223,7 +223,7 @@
 
     <div class="image-row">
       <p class="pCaption el">Yemeni refugee shows his son's picture on a mobile phone</p>
-      <img class="image lgImg el el-img" src="/assets/google/refugee-phone1.png" alt="google refuge asset" />
+      <!-- <img class="image lgImg el el-img" src="/assets/google/refugee-phone1.png" alt="google refuge asset" /> -->
     </div>
   </section>
 
@@ -244,7 +244,7 @@
 
     <div class="image-row">
       <p class="pCaption el">The UNHCR connectivity report: click to view</p>
-      <a class="image el el-img" href="https://www.unhcr.org/5770d43c4.pdf" target="_blank" style="height: calc(100% - 7px);"><img class="lgImg" src="/assets/google/unhcr.jpg" alt="google refuge asset" /></a>
+      <!-- <a class="image el el-img" href="https://www.unhcr.org/5770d43c4.pdf" target="_blank" style="height: calc(100% - 7px);"><img class="lgImg" src="/assets/google/unhcr.jpg" alt="google refuge asset" /></a> -->
     </div>
   </section>
 
@@ -256,7 +256,7 @@
 
     <div class="image-row">
       <p class="pCaption el">Our three brand contenders to lead the project</p>
-      <img class="image lgImg el el-img" src="/assets/google/companies.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" />
+      <!-- <img class="image lgImg el el-img" src="/assets/google/companies.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" /> -->
     </div>
 
     <h3 class="el el-sub row-new">BRAND</h3>
@@ -269,7 +269,7 @@
 
     <div class="image-row">
       <p class="pCaption el">Google volunteers with NetHope in Greece</p>
-      <img class="image lgImg el el-img" src="/assets/google/google-gives.jpg" alt="google refuge asset" />
+      <!-- <img class="image lgImg el el-img" src="/assets/google/google-gives.jpg" alt="google refuge asset" /> -->
     </div>
   </section>
 
@@ -288,7 +288,7 @@
 
     <div class="image-row">
       <p class="pCaption el">Google & the UNHCR working together to help refugees</p>
-      <img class="image lgImg el el-img" src="/assets/google/benefits.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" />
+      <!-- <img class="image lgImg el el-img" src="/assets/google/benefits.png" style="outline: 1px solid var(--primary-black); background-color: var(--primary-white);" alt="google refuge asset" /> -->
     </div>
   </section>
 
@@ -307,7 +307,7 @@
 
     <div class="image-row">
       <p class="pCaption el">Tools & technologies used in this project</p>
-      <img class="image lgImg el el-img" src="/assets/google/tools.png" style="outline: 1px solid var(--primary-black);" alt="google refuge asset" />
+      <!-- <img class="image lgImg el el-img" src="/assets/google/tools.png" style="outline: 1px solid var(--primary-black);" alt="google refuge asset" /> -->
     </div>
 
     <h3 class="el el-sub row-new">TEAM</h3>
@@ -320,7 +320,7 @@
 
 </main>
 
-
+<!-- 
 <style lang="scss">
 /* ==========================
 -- DOCUMENT                --
@@ -350,7 +350,7 @@
   padding: 0;
 }
 
-body{
+main {
   min-height: 100vh;
   background-color: var(--primary-white);
   transition: background-color 250ms;
@@ -1799,4 +1799,4 @@ a.experience:hover::after{
   }
 
 }
-</style>
+</style> -->
