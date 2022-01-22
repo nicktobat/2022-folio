@@ -281,10 +281,6 @@
 		max-width: 800px;
 	}
 
-	h3 {
-		font-family: 'Days One';
-	}
-
 	p {
 		font-size: 24px;
 		line-height: 32px;
@@ -374,6 +370,10 @@
 				font-size: 40px;
 				line-height: 56px;
 			}
+
+      h3 {
+        font-family: 'Days One';
+      }
 
 			div.imgset {
 				width: 100%;

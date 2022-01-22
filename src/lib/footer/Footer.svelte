@@ -8,11 +8,11 @@
 
   let darks = ['/prod/', '/bluesky/'];
   let path = $page.url.pathname;
-  console.log($page.url.pathname);
+  console.log(path);
 </script>
 
 
-<footer class:darkmode="{path.includes('/prod/')}">
+<footer class:darkmode="{path.includes('/prod/')}" class:darkness="{path.includes('/bluesky/')}">
 
   <hr />
 
@@ -23,7 +23,7 @@
         deployed through Github Pages, designed in Figma,<br />
         and developed in Svelte by yours truly.
         <br /><br />
-        Last updated November 30 2021.
+        Last updated January 20 2022.
       </p>
     </section>
     <section class="links">
@@ -191,7 +191,7 @@
       }
     }
 
-    &.darkmode {
+    &.darkmode, &.darkness {
       background-color: $black;
 
       div.sections {
