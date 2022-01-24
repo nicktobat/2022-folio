@@ -17,6 +17,11 @@
 	}
 </script>
 
+
+<svelte:head>
+	<title>Utilization Reports | Nicholas Tobat</title>
+</svelte:head>
+
 <main id="util">
 	<header>
 		<div class="text">

@@ -5,6 +5,12 @@
 	export const prerender = true;
 </script>
 
+
+
+<svelte:head>
+	<title>Kinis App | Nicholas Tobat</title>
+</svelte:head>
+
 <main id="kinis">
 	<header>
 		<div class="text">

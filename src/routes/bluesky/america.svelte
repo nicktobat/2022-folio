@@ -17,6 +17,11 @@
 	}
 </script>
 
+
+<svelte:head>
+	<title>AMERICA 2050 | Nicholas Tobat</title>
+</svelte:head>
+
 <main id="america">
 	<header>
 		<div class="text">

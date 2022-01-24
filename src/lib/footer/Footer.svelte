@@ -5,14 +5,10 @@
   import { addToast } from '$lib/snackbar/store';
   import Clipboard from 'svelte-clipboard'
   import Icon from '$lib/Icon.svelte'
-
-  let darks = ['/prod/', '/bluesky/'];
-  let path = $page.url.pathname;
-  console.log(path);
 </script>
 
 
-<footer class:darkmode="{path.includes('/prod/')}" class:darkness="{path.includes('/bluesky/')}">
+<footer class:darkmode="{$page.url.pathname.includes('/prod/')}" class:darkness="{$page.url.pathname.includes('/bluesky/')}">
 
   <hr />
 

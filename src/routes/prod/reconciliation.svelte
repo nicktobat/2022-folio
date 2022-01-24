@@ -17,6 +17,11 @@
 	}
 </script>
 
+
+<svelte:head>
+	<title>Reconciliation | Nicholas Tobat</title>
+</svelte:head>
+
 <main id="reconcile">
 	<header>
 		<div class="text">

@@ -17,6 +17,11 @@
 	}
 </script>
 
+
+<svelte:head>
+	<title>Google Refuge | Nicholas Tobat</title>
+</svelte:head>
+
 <main id="google">
 	<header>
 		<div class="text">
