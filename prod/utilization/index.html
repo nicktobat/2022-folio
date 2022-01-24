@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Utilization Reports | Nicholas Tobat</title>
+	<link rel="stylesheet" href="/_app/assets/vendor-2634b1a9.css">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-0e55487a.css">
+	<link rel="stylesheet" href="/_app/assets/pages/prod/utilization.svelte-3ea1ef7d.css">
+	<link rel="modulepreload" href="/_app/start-f5a50e57.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-91da0f73.js">
+	<link rel="modulepreload" href="/_app/chunks/paths-28a87002.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-8635c703.js">
+	<link rel="modulepreload" href="/_app/chunks/Icon-7dd08f09.js">
+	<link rel="modulepreload" href="/_app/pages/prod/utilization.svelte-d6ac0c43.js">
+			<script type="module">
+				import { start } from "/_app/start-f5a50e57.js";
+				start({
+					target: document.querySelector("#svelte"),
+					paths: {"base":"","assets":""},
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: "never",
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import("/_app/pages/__layout.svelte-8635c703.js"),
+						import("/_app/pages/prod/utilization.svelte-d6ac0c43.js")
+						],
+						url: new URL("http://prerender/prod/utilization"),
+						params: {}
+					}
+				});
+			</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<nav class="container svelte-fkv5bo"><div id="logo"><a href="/" class="svelte-fkv5bo">
+
+
+<svg focusable="false" width="32px" height="32px" viewBox="0 0 64 64"><!-- HTML_TAG_START --><path fill-rule="evenodd" clip-rule="evenodd" d="M7.54316 50.1592V5.88592C7.54316 5.39959 7.93522 5 8.41909 5H16.2259C16.5275 5 16.8077 5.15639 16.9681 5.41692L38.3112 39.9115V13.8234H29.4459C29.1444 13.8234 28.864 13.6672 28.7037 13.4066L24.3376 6.35474C24.1682 6.07684 24.1588 5.7296 24.3131 5.45169C24.4672 5.17379 24.761 5 25.0796 5H61.1241C61.6078 5 62 5.39959 62 5.88592V12.9376C62 13.424 61.6078 13.8234 61.1241 13.8234H47.9055V58.1141C47.9055 58.6004 47.5132 59 47.0294 59H39.1871C38.8857 59 38.6054 58.8436 38.4451 58.5831L17.102 24.0885V58.1141C17.102 58.6004 16.7098 59 16.2259 59H2.8761C2.39224 59 2 58.6004 2 58.1141V51.0451C2 50.5587 2.39224 50.1592 2.8761 50.1592H7.54316Z" /><!-- HTML_TAG_END --></svg>
+      <span class="ttText svelte-fkv5bo">Home</span></a></div>
+  <div id="links"><a href="/prod" class="svelte-16thw0k active">
+
+
+<svg focusable="false" width="24px" height="24px" viewBox="0 0 24 24"><!-- HTML_TAG_START --><path d="M5 8V20H9V8H5ZM3 7L7 2L11 7V22H3V7ZM19 16V14H16V12H19V10H17V8H19V6H15V20H19V18H17V16H19ZM14 4H20C20.2652 4 20.5196 4.10536 20.7071 4.29289C20.8946 4.48043 21 4.73478 21 5V21C21 21.2652 20.8946 21.5196 20.7071 21.7071C20.5196 21.8946 20.2652 22 20 22H14C13.7348 22 13.4804 21.8946 13.2929 21.7071C13.1054 21.5196 13 21.2652 13 21V5C13 4.73478 13.1054 4.48043 13.2929 4.29289C13.4804 4.10536 13.7348 4 14 4V4Z"/><!-- HTML_TAG_END --></svg>
+  <span class="ttText svelte-16thw0k">Product Design</span>
+</a>
+    <a href="/studio" class="svelte-16thw0k">
+
+
+<svg focusable="false" width="24px" height="24px" viewBox="0 0 24 24"><!-- HTML_TAG_START --><path d="M12 2C17.522 2 22 5.978 22 10.889C21.9992 12.3622 21.4136 13.7748 20.3717 14.8165C19.3299 15.8581 17.9172 16.4435 16.444 16.444H14.478C13.556 16.444 12.811 17.189 12.811 18.111C12.811 18.533 12.978 18.922 13.233 19.211C13.5 19.511 13.667 19.9 13.667 20.333C13.667 21.256 12.9 22 12 22C6.478 22 2 17.522 2 12C2 6.478 6.478 2 12 2ZM10.811 18.111C10.8106 17.6293 10.9052 17.1523 11.0893 16.7072C11.2735 16.2622 11.5436 15.8578 11.8842 15.5172C12.2248 15.1766 12.6292 14.9065 13.0742 14.7223C13.5193 14.5382 13.9963 14.4436 14.478 14.444H16.444C17.3866 14.4435 18.2905 14.0689 18.9572 13.4026C19.6239 12.7363 19.9989 11.8326 20 10.89C20 7.139 16.468 4 12 4C9.93558 3.99812 7.95034 4.79436 6.45938 6.22225C4.96841 7.65014 4.08715 9.59913 3.99986 11.6617C3.91256 13.7243 4.62599 15.7408 5.99097 17.2895C7.35595 18.8383 9.2668 19.7994 11.324 19.972C10.9892 19.4093 10.812 18.7668 10.811 18.112V18.111ZM7.5 12C7.10218 12 6.72064 11.842 6.43934 11.5607C6.15804 11.2794 6 10.8978 6 10.5C6 10.1022 6.15804 9.72064 6.43934 9.43934C6.72064 9.15804 7.10218 9 7.5 9C7.89782 9 8.27936 9.15804 8.56066 9.43934C8.84196 9.72064 9 10.1022 9 10.5C9 10.8978 8.84196 11.2794 8.56066 11.5607C8.27936 11.842 7.89782 12 7.5 12V12ZM16.5 12C16.1022 12 15.7206 11.842 15.4393 11.5607C15.158 11.2794 15 10.8978 15 10.5C15 10.1022 15.158 9.72064 15.4393 9.43934C15.7206 9.15804 16.1022 9 16.5 9C16.8978 9 17.2794 9.15804 17.5607 9.43934C17.842 9.72064 18 10.1022 18 10.5C18 10.8978 17.842 11.2794 17.5607 11.5607C17.2794 11.842 16.8978 12 16.5 12ZM12 9C11.6022 9 11.2206 8.84196 10.9393 8.56066C10.658 8.27936 10.5 7.89782 10.5 7.5C10.5 7.10218 10.658 6.72064 10.9393 6.43934C11.2206 6.15804 11.6022 6 12 6C12.3978 6 12.7794 6.15804 13.0607 6.43934C13.342 6.72064 13.5 7.10218 13.5 7.5C13.5 7.89782 13.342 8.27936 13.0607 8.56066C12.7794 8.84196 12.3978 9 12 9Z" /><!-- HTML_TAG_END --></svg>
+  <span class="ttText svelte-16thw0k">Studio</span>
+</a>
+    
+    <a href="/bluesky" class="svelte-16thw0k">
+
+
+<svg focusable="false" width="24px" height="24px" viewBox="0 0 24 24"><!-- HTML_TAG_START --><path d="M6.083 13C5.93845 12.14 5.98311 11.2588 6.21388 10.4178C6.44464 9.57676 6.85597 8.79617 7.41921 8.13036C7.98245 7.46455 8.68406 6.92953 9.47518 6.56255C10.2663 6.19557 11.1279 6.00546 12 6.00546C12.8721 6.00546 13.7337 6.19557 14.5248 6.56255C15.3159 6.92953 16.0175 7.46455 16.5808 8.13036C17.144 8.79617 17.5554 9.57676 17.7861 10.4178C18.0169 11.2588 18.0616 12.14 17.917 13H15.874C16.0259 12.4091 16.0407 11.7913 15.9171 11.1938C15.7935 10.5963 15.5349 10.035 15.161 9.55285C14.7872 9.07069 14.3079 8.68045 13.7601 8.41198C13.2122 8.14352 12.6101 8.00395 12 8.00395C11.3899 8.00395 10.7878 8.14352 10.2399 8.41198C9.69205 8.68045 9.21284 9.07069 8.83897 9.55285C8.4651 10.035 8.20648 10.5963 8.08291 11.1938C7.95933 11.7913 7.97407 12.4091 8.126 13H6.083ZM2 15H12V17H2V15ZM14 15H22V17H14V15ZM16 19H20V21H16V19ZM4 19H14V21H4V19ZM11 1H13V4H11V1ZM3.515 4.929L4.929 3.515L7.05 5.636L5.636 7.05L3.515 4.93V4.929ZM19.07 3.515L20.484 4.929L18.363 7.05L16.949 5.636L19.07 3.515ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z" /><!-- HTML_TAG_END --></svg>
+  <span class="ttText svelte-16thw0k">Blue Sky</span>
+</a></div>
+</nav>
+
+
+
+<main id="util" class="svelte-btzmo9"><header class="svelte-btzmo9"><div class="text svelte-btzmo9"><h1 class="svelte-btzmo9">Utilization Reports</h1>
+			<h3 class="svelte-btzmo9">A robust reporting tool for the building blocks of your company.</h3></div></header>
+
+	<div id="hero" class="svelte-btzmo9"><img src="/utilizepreview.png" alt="app preview" class="svelte-btzmo9"></div>
+
+	<div id="info" class="svelte-btzmo9"><hr class="svelte-btzmo9">
+		<div class="infoRow svelte-btzmo9"><p class="svelte-btzmo9">ROLE</p>
+			<p class="svelte-btzmo9">Product Design Lead</p></div>
+		<hr class="svelte-btzmo9">
+		<div class="infoRow svelte-btzmo9"><p class="svelte-btzmo9">CONTEXT</p>
+			<p class="svelte-btzmo9">Web App Feature Design</p></div>
+		<hr class="svelte-btzmo9">
+		<div class="infoRow svelte-btzmo9"><p class="svelte-btzmo9">TIME</p>
+			<p class="svelte-btzmo9">January 2020 – June 2020</p></div>
+		<hr class="svelte-btzmo9"></div>
+
+	<section id="intro" class="svelte-btzmo9"><p class="svelte-btzmo9">Backbone is the only product development platform built for the direct-to-consumer economy.
+			Their suite of connected features emphasize speed, flexibility, and connectivity for modern
+			product teams. The mission:
+		</p>
+		<div class="quote svelte-btzmo9"><p class="svelte-btzmo9">The future of consumer brands is digital. Backbone provides the platform that empowers
+				fashion brands to innovate, design, and develop products at digital speed while scaling for
+				growth.
+			</p></div>
+		<p class="svelte-btzmo9">As a part of the platform moving from 1.0 to 2.0, we needed to ensure that our users retained
+			all the tools and features they had come to expect in version 1. One of the biggest missing
+			pieces was Utilization Reports. The majority of Backbone&#39;s clients are apparel companies, and
+			our users needed a way to display selected sets of components in dynamic, exportable reports
+			to help with Purchase Orders and product planning.
+		</p>
+		<a class="button svelte-btzmo9" role="button" href="http://www.backboneplm.com" target="_blank"><p class="svelte-btzmo9">Backbone Website</p>
+			
+
+
+<svg focusable="false" width="24px" height="24px" viewBox="0 0 24 24"><!-- HTML_TAG_START --><path d="M10 6V8H5V19H16V14H18V20C18 20.2652 17.8946 20.5196 17.7071 20.7071C17.5196 20.8946 17.2652 21 17 21H4C3.73478 21 3.48043 20.8946 3.29289 20.7071C3.10536 20.5196 3 20.2652 3 20V7C3 6.73478 3.10536 6.48043 3.29289 6.29289C3.48043 6.10536 3.73478 6 4 6H10ZM21 3V12L17.206 8.207L11.207 14.207L9.793 12.793L15.792 6.793L12 3H21Z" /><!-- HTML_TAG_END --></svg></a></section>
+
+	<section id="what" class="svelte-btzmo9"><h2 class="svelte-btzmo9">What is it?</h2>
+		<p class="svelte-btzmo9">Utilization Reports are an analytics tool leveraging powerful filtering on the entire company
+			dataset to provide dynamic, flexible, real-time snapshots on the building blocks of each and
+			every product: components. If you&#39;re in the tech world, you might think of components as
+			independent, reusable chunks of code. In the apparel world, the idea is similar: components
+			are the individual pieces of a garment that, put together, result in a finished product. For
+			example, the shirt you&#39;re wearing right now might have buttons, one or two kinds of fabric,
+			multiple stitching patterns, a tag, etc — these are all components.
+		</p></section>
+
+	<section id="library" class="svelte-btzmo9"><h2 class="svelte-btzmo9">Report Library</h2>
+		<div class="imgset imgset-3 svelte-btzmo9"><div class="imgwrap svelte-btzmo9"><img src="/util/reportlib0.png" alt="report library screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/reportlib1.png" alt="report library screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/reportlib2.png" alt="report library screenshot" class="svelte-btzmo9">
+				</div></div>
+		<p class="svelte-btzmo9">The report library serves as the landing page for this feature and houses all utilization
+			reports created by or shared with the current user.
+		</p></section>
+
+	<section id="create" class="svelte-btzmo9"><h2 class="svelte-btzmo9">Report Creation</h2>
+		<div class="imgset imgset-3 svelte-btzmo9"><div class="imgwrap svelte-btzmo9"><img src="/util/reportc0.png" alt="report creation screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/reportc1.png" alt="report creation screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/reportc2.png" alt="report creation screenshot" class="svelte-btzmo9">
+				</div></div>
+		<p class="svelte-btzmo9">Here, the user decides which components to include in the report, using both component- and
+			product-level attributes. I reimagined our established filtering UI/UX pattern in order to
+			implement a simple, section-based filtering system with informative tooltips to let the user
+			know how the report is generated in the backend.
+		</p></section>
+
+	<section id="generate" class="svelte-btzmo9"><h2 class="svelte-btzmo9">Report Generation</h2>
+		<div class="imgset imgset-3 svelte-btzmo9"><div class="imgwrap svelte-btzmo9"><img src="/util/reportg0.png" alt="report creation screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/reportg1.png" alt="report creation screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/reportg2.png" alt="report creation screenshot" class="svelte-btzmo9">
+				</div></div>
+		<p class="svelte-btzmo9">Reports are generated with a set of features to give the user ultimate control over the data
+			displayed. These features include searching, sorting, filtering, and column management. While
+			many of these patterns make use of reusable components found elsewhere in the app, I developed
+			the column manager specifically for this reporting module.
+		</p>
+		</section>
+
+	<section id="process" class="svelte-btzmo9"><h2 class="svelte-btzmo9">UX Process</h2>
+		<p class="svelte-btzmo9">Luckily, we had an older requirements doc from 1.0 that helped to inform a lot of my initial
+			direction. I also jumped into 1.0 to play around with the feature, noting interactions and
+			jotting down my thoughts about the user experience. I worked with our wonderful CX lead to run
+			a few Q&amp;A sessions with our users to speak about their wants, needs, and biases.
+		</p>
+		<p class="svelte-btzmo9">Once I was confident in my knowledge of the problem, it was time to start drawing rectangles
+			on screens! I used our bespoke Wireframe Kit (designed and developed by yours truly) to map
+			out some initial explorations. A lot of the head-scratching came from determining how best to
+			filter on the entire dataset.
+		</p>
+		<div class="imgset imgset-3 svelte-btzmo9"><div class="imgwrap svelte-btzmo9"><img src="/util/uteP0.png" alt="design process screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/uteP1.png" alt="design process screenshot" class="svelte-btzmo9">
+				</div><div class="imgwrap svelte-btzmo9"><img src="/util/uteP2.png" alt="design process screenshot" class="svelte-btzmo9">
+				</div></div></section></main>
+
+<div id="lightbox" class="svelte-btzmo9"><img alt="expanded view" class="svelte-btzmo9">
+</div>
+
+<footer class="svelte-1mr6qu9 darkmode"><hr class="svelte-1mr6qu9">
+
+  <div class="sections svelte-1mr6qu9"><section class="svelte-1mr6qu9"><p class="svelte-1mr6qu9">This website is typeset in Forum &amp; Days One,<br class="svelte-1mr6qu9">
+        deployed through Github Pages, designed in Figma,<br class="svelte-1mr6qu9">
+        and developed in Svelte by yours truly.
+        <br class="svelte-1mr6qu9"><br class="svelte-1mr6qu9">
+        Last updated January 20 2022.
+      </p></section>
+    <section class="links svelte-1mr6qu9"><div class="link svelte-1mr6qu9">
+        <a href="//mailto:ntobat@gmail.com" target="_blank" title="Visit Link" class="svelte-1mr6qu9">ntobat@gmail.com</a></div>
+      <div class="link svelte-1mr6qu9">
+        <a href="//linkedin.com/in/nicktobat" target="_blank" title="Visit Link" class="svelte-1mr6qu9">linkedin.com/in/nicktobat</a></div>
+      <div class="link svelte-1mr6qu9">
+        <a href="//github.com/nicktobat" target="_blank" title="Visit Link" class="svelte-1mr6qu9">github.com/nicktobat</a></div></section>
+    <section class="svelte-1mr6qu9"><a href="/" class="svelte-1mr6qu9">
+
+
+<svg focusable="false" width="32px" height="32px" viewBox="0 0 64 64"><!-- HTML_TAG_START --><path fill-rule="evenodd" clip-rule="evenodd" d="M7.54316 50.1592V5.88592C7.54316 5.39959 7.93522 5 8.41909 5H16.2259C16.5275 5 16.8077 5.15639 16.9681 5.41692L38.3112 39.9115V13.8234H29.4459C29.1444 13.8234 28.864 13.6672 28.7037 13.4066L24.3376 6.35474C24.1682 6.07684 24.1588 5.7296 24.3131 5.45169C24.4672 5.17379 24.761 5 25.0796 5H61.1241C61.6078 5 62 5.39959 62 5.88592V12.9376C62 13.424 61.6078 13.8234 61.1241 13.8234H47.9055V58.1141C47.9055 58.6004 47.5132 59 47.0294 59H39.1871C38.8857 59 38.6054 58.8436 38.4451 58.5831L17.102 24.0885V58.1141C17.102 58.6004 16.7098 59 16.2259 59H2.8761C2.39224 59 2 58.6004 2 58.1141V51.0451C2 50.5587 2.39224 50.1592 2.8761 50.1592H7.54316Z" /><!-- HTML_TAG_END --></svg></a></section></div>
+  
+  <section class="svelte-6gbjsu"></section>
+
+</footer>
+
+</div>
+	</body>
+</html>
